@@ -906,8 +906,73 @@ span{
     width: 260px;
     box-sizing: border-box;
     background-image: url(/images/pg7-img1.jpg);
-    background-size: cover;
+    background-size: cover;position: relative;
+    /* opacity: 0; */
+    
 }
+
+.x h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* margin-top: 0px; */
+    padding-top: 220px;
+    font-size: 18px;
+}
+
+.x p{
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+
+.x{
+    width: 260px;
+    height: 265px;
+    background-image: linear-gradient(367deg, black, #f4f5f8 );
+    /* opacity: 0.5; */
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+}
+
+.x:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.pg6-icons a{
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    transition: 0.3s;
+    /* opacity: 0; */
+}
+
+.pg6-icons i:hover {
+    color: #ed502e;
+}
+
+
+.pg6-icons i{
+    margin-left: 14px;
+    font-size: 20px
+}
+
+
+.pg6-icons{
+    height: 265px;
+    width: 50px;
+    /* border: solid 2px red; */
+    background-color: black;
+    /* opacity: 0.5; */
+    position: absolute;
+    bottom: 0px;
+    /* opacity: 0; */
+}
+
+
+
 
 .pg5-line{
     position: absolute;
@@ -961,9 +1026,10 @@ span{
 
 .pg6-para1{
     height: 600px;
-    width: 25%;
+    width: 30%;
     border: solid 2px red;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
 
 .pg6-para1 h3{
@@ -1007,6 +1073,7 @@ span{
     /* text-align: center; */
     margin-left: 90px;
     padding: 10px 30px;
+    margin-top: 90px;
     border-radius: 4px;
     color: #0b2341;
     transition: none;
@@ -1043,6 +1110,163 @@ span{
     font-weight: 600;
     color: #fff;  
 }
+
+.pg7-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pg7-para1{
+    width: 46%;
+    height: 200px;
+}
+
+.pg7-para1 h3{
+    font-size: 16px;
+    line-height: 26px;
+    /* font-weight: 500; */
+    font-family: "Poppins", sans-serif;
+}
+
+.pg7-para2{
+    width: 53%;
+    height: 200px;
+}
+
+.pg7-para2 p{
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.pg8-line{
+    position: absolute;
+    border-bottom: 2px solid #ed502e;
+    width: 100px;
+    margin-left: 85px;
+    margin-top: 8px;
+}
+
+.pg8-flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pg8-l{
+    width: 48%;
+    height: 500px;
+    border: solid 2px red;
+}
+
+.pg8-adress1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.pg8-adress{
+    text-align: center;
+    height: 120px;
+    width: 65%;
+    /* border: solid 2px green; */
+    box-shadow: 0 0 30px #1f1d1d36;
+    padding: 20px;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+
+.pg8-adress i{
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    color: #ed502e;
+    /* border: solid; */
+    padding: 8px;
+    border: 2px dotted #fbdad2;
+    border-radius: 50%;
+}
+
+.pg8-adress h3{
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.pg8-adress p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.email i{
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    color: #ed502e;
+    /* border: solid; */
+    padding: 8px;
+    border: 2px dotted #fbdad2;
+    border-radius: 50%;
+}
+
+.email{
+    margin-left: 45px;
+    padding-top: 24px;
+    height: 170px;
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 0 30px #1f1d1d36;
+    /* border: solid 2px black; */
+}
+
+.email h3{
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.email p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-top:10px;
+}
+
+.callus i{
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    color: #ed502e;
+    /* border: solid; */
+    padding: 8px;
+    border: 2px dotted #fbdad2;
+    border-radius: 50%;
+}
+
+.callus{
+    margin-right: 30px;
+    padding-top: 24px;
+    height: 170px;
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 0 30px #1f1d1d36;
+    /* border: solid 2px black; */
+}
+
+.callus h3{
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.callus p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-top:10px;
+}
+
+
 
 
 
@@ -1171,5 +1395,4 @@ span{
         font-size: 40px;
     }
 } */
-
 
